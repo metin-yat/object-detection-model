@@ -1,0 +1,74 @@
+[
+    {
+        "image_source": "/detrModel/inputs/araba (1).jpg",
+        "label": 3,
+        "label_name": "car",
+        "confidence": 0.9899975061416626,
+        "bounding_box": [
+            0.0031443238258361816,
+            90.66878509521484,
+            7.7342071533203125,
+            111.77091217041016
+        ]
+    },
+    {
+        "image_source": "/detrModel/inputs/araba (1).jpg",
+        "label": 11,
+        "label_name": "fire hydrant",
+        "confidence": 0.9083326458930969,
+        "bounding_box": [
+            29.89771842956543,
+            90.19415283203125,
+            36.262001037597656,
+            98.7601318359375
+        ]
+    },
+    {
+        "image_source": "/detrModel/inputs/araba (1).jpg",
+        "label": 3,
+        "label_name": "car",
+        "confidence": 0.9938923120498657,
+        "bounding_box": [
+            -0.002668231725692749,
+            87.7630844116211,
+            24.874849319458008,
+            103.3314437866211
+        ]
+    },
+    {
+        "image_source": "/detrModel/inputs/araba (1).jpg",
+        "label": 3,
+        "label_name": "car",
+        "confidence": 0.9961482286453247,
+        "bounding_box": [
+            40.952537536621094,
+            49.245967864990234,
+            238.2373504638672,
+            162.3460693359375
+        ]
+    },
+    {
+        "image_source": "/detrModel/inputs/indir.jpg",
+        "label": 61,
+        "label_name": "cake",
+        "confidence": 0.9974193572998047,
+        "bounding_box": [
+            93.33704376220703,
+            179.78628540039062,
+            238.7148895263672,
+            262.25054931640625
+        ]
+    },
+    {
+        "image_source": "/detrModel/inputs/indir.jpg",
+        "label": 1,
+        "label_name": "person",
+        "confidence": 0.9875499606132507,
+        "bounding_box": [
+            143.17677307128906,
+            29.759225845336914,
+            349.6136474609375,
+            329.3216247558594
+        ]
+    }
+]

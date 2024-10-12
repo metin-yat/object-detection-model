@@ -1,0 +1,21 @@
+version: "3.4"
+services:
+    website:
+        build : path-to\uploadImages\
+        image: website-image
+        ports:
+         - 5000:5000
+        volumes:
+          - path-to\mlSystem\storage:/website/images
+    monitor:
+        build : path-to\triggerStorage
+        image: folder-monitor
+        volumes:
+          - path-to\mlSystem\storage:/monitoring/comingImages
+          - path-to\mlSystem\input:/monitoring/inputs
+    model:
+        build: path-to\detrModel
+        image:  objdetmodel
+        volumes:
+          - path-to\mlSystem\input:/detrModel/inputs
+          - path-to\mlSystem\output:/detrModel/outputs
